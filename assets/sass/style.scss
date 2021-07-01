@@ -1,0 +1,96 @@
+/*
+	*******************
+	Template name:  tf-quickstart
+	Version:        1.0
+	Author:         rajibmehedihasan
+	Author url:     https://github.com/rajibmehedihasan
+
+	NOTE:
+	-----
+	Please DO NOT EDIT THIS CSS, you may need to use "custom.css" file for writing your custom css.
+	We may release future updates so it will overwrite this file. it's better and safer to use "custom.css".
+
+    ******** CSS INDEX ********
+    ********************/
+	@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,500;1,600&family=Roboto:wght@100;900&display=swap');
+	
+@import '_bootstrap';
+@import '_normalize';
+@import '_heder';
+body{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+img{
+	width: 100%;
+}
+.mt-70{
+	margin-top: 70px;
+}
+.mb-60{
+	margin-bottom: 60px;
+}
+.mb-30{
+	margin-bottom: 40px;
+}
+UL{
+	padding: 0;
+	margin: 0;
+}
+p{
+	padding: 0;
+}
+.pro_content{
+	p{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 500;
+		font-size: 18px;
+		margin: 10px 0;
+	}
+	span{
+		font-weight: 900;
+	}
+}
+.section-title{
+	margin-bottom: 30px;
+	h2{
+		text-transform: uppercase;
+		margin: 40px 0;
+		font-weight: 900;
+	}
+}
+
+
+.bannar-wrapper{
+	min-height: 500px;
+	background-image: url('https://cdn.shopify.com/s/files/1/0035/5935/8509/files/car-slider1_3000x.jpg?v=1605861483');
+	background-size: cover;
+	span{
+		font-size: 18px;
+		margin-bottom: 10px;
+		color: #ddd;
+	}
+	h2{
+		font-size: 60px;
+		font-weight: 900;
+		margin: 15px 0;
+		color: #fff;
+	}
+	a.btn{
+
+		color: #fff;
+		background: #f41d18;
+		padding: 8px 25px;
+	}
+}
+
+.bannar-offer{
+	margin: 30px 0;
+}
+
+
+
+
+@import '_collection-cts';
+@import '_offer-section';
+@import '_prduct-grid-item';

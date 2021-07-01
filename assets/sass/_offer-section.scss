@@ -1,0 +1,23 @@
+.offer-section{
+    padding: 60px 0;
+    background: #0E0F2C;
+    .featured-wrapper{
+        margin-bottom: 30px;
+        .featued-icon{
+            i{
+                font-size: 40px;
+                color: #fff;
+            }
+        }
+        .featued-text{
+            margin-left: 15px;
+            h5{
+                font-size:26px;
+                margin: 0 0 10px 0;
+                color: #fff;
+            }p{
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.collection-cta{
+	padding: 75px 0;
+	background: #ddd;
+	transition: all .3s ease-in-out;
+    background: #0E0F2C;
+	.catalog{
+		position: relative;
+		
+		overflow: hidden;
+        transition: 0.3s all ease-in-out;
+		&::before{
+			position: absolute;
+			content: "";
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: black;
+			opacity: 0.5;
+            transition: 0.3s all ease-in-out;
+		}
+
+		.cta-content {
+			color: #fff;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+			top: 50%;
+			padding: 0 5px;
+			-ms-transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+			transition: .2s;
+		
+			hyphens: auto;
+			z-index: 10;
+			-webkit-transition: .3s;
+			-moz-transition: .3s;
+			-o-transition: .3s;
+
+			h6{
+				font-size: 28px;
+				font-weight: bold;
+                transition: 0.3s all ease-in-out;
+                margin: 0;
+			}
+			span{
+				font-size: 18px;
+			}
+
+		}
+
+
+
+	}
+}
+ .cta-img {
+     font-size: 20px;
+    img{
+        transition: transform .5s ease;
+     
+    }  
+
+
+ }
+
+ .catalog:hover .cta-img > img{
+    transform: scale(1.11);
+}
+ .catalog:hover::before{
+    opacity: 0.5;
+}
+ .catalog:hover h6{
+    transform: scale(1.11);
+}

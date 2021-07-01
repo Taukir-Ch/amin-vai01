@@ -1,0 +1,24 @@
+.product_details_img{
+	margin: 20px 0;
+}
+.product_details_info{
+	margin-left: 60px;
+	span{
+		color: #60d47e;
+	}
+	h3{
+		font-size: 28px;
+		
+	}
+}
+.prduct-grid{
+    .pro_img{
+        position: relative;
+        .pro_price_add{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    }
+
+}
