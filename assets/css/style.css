@@ -12036,4 +12036,136 @@ p {
   bottom: 0;
 }
 
+.footer-wrapper {
+  padding: 80px;
+  background: #b8acac;
+}
+
+.footer-wrapper .f-logo {
+  width: 80px;
+}
+
+.footer-wrapper .conatct-text {
+  margin-left: 15px;
+  color: #fff;
+}
+
+.footer-wrapper .location-text {
+  margin-left: 15px;
+  color: #fff;
+}
+
+.footer-wrapper .contact-num {
+  margin-left: 15px;
+  color: #fff;
+}
+
+.footer-wrapper .contact-icon {
+  color: #fff;
+}
+
+.singel-menu-info h5 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.singel-menu-info ul li {
+  list-style-type: none;
+}
+
+.singel-menu-info ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.footer-new {
+  margin-left: 40px;
+}
+
+.footer-new h5 {
+  color: #fff;
+}
+
+.footer-new p {
+  color: #fff;
+}
+
+.footer-new .input-grou {
+  position: relative;
+}
+
+.footer-new .input-grou input {
+  background: none;
+  border-radius: 15px;
+  border: 1px solid #fff;
+}
+
+.footer-new .input-grou input:focus {
+  outline: none;
+  border: 1px solid #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.footer-new .input-grou button {
+  background: #f41d18;
+  color: #fff;
+  border: none;
+  height: 34px;
+  margin-top: 0.1px;
+  outline: none;
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  border-radius: 15px 15px;
+  text-transform: uppercase;
+}
+
+.form-control::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
