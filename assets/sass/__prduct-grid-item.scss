@@ -12,13 +12,47 @@
 	}
 }
 .prduct-grid{
+
     .pro_img{
-        position: relative;
+     
         .pro_price_add{
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+          
+    
+       
+          
+            z-index: 15;
+            background: #000;
+
+            a{
+                color: #fff;
+                display: inline-block;
+                font-weight: bold;
+                font-family: 'Raleway', sans-serif;
+                
+    width: 63%;
+                &:focus{
+                    box-shadow: none;
+                }
+            }
         }
+
     }
 
+}
+.product-counter {
+    display: inline-block;
+    input#quantity{
+       background: none;
+       color: #fff;
+       width: 30px;
+       outline: none;
+       border: 0px;
+       text-align: center;
+       font-weight: bold;
+       font-size: 20px;
+       padding: 0px;
+       &:focus{
+           padding: 0;
+       }
+    }
 }

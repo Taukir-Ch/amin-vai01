@@ -1,0 +1,62 @@
+.p_plus{
+   width: 30px;
+   height: 30px;
+    border: none;
+    position: relative;
+    display: inline-block;
+  padding: 0;
+  margin: 0;
+    &:before, 
+    &:after {
+       content: "";
+       position: absolute;
+       top: 74%;
+       left: 40%;
+       width: 18px;
+       height: 2px;
+       transform: translate(-50%, -50%);
+     background: #fff;
+       z-index: 10;
+       pointer-events: none;
+cursor: default;
+    }
+    
+    &:before {
+       transform: translate(-50%, -50%) rotate(90deg);
+    }
+    #plus{
+      background: transparent;
+      border: none;
+      width: 20px;
+    }
+}
+.p_minus{
+   width: 30px;
+   height: 30px;
+    border: none;
+    position: relative;
+    display: inline-block;
+  padding: 0;
+  margin: 0;
+    &:before, 
+    &:after {
+       content: "";
+       position: absolute;
+       top: 74%;
+       left: 41%;
+       width: 18px;
+       height: 2px;
+       transform: translate(-50%, -50%);
+     background: #fff;
+       z-index: 10;
+       pointer-events: none;
+cursor: default;
+    }
+    
+
+    #minus{
+      background: transparent;
+      border: none;
+      width: 22px;
+    }
+}
