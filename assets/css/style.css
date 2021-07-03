@@ -12026,12 +12026,12 @@ p {
   font-size: 28px;
 }
 
-.prduct-grid .pro_img .pro_price_add {
+.pro_price_add {
   z-index: 15;
   background: #000;
 }
 
-.prduct-grid .pro_img .pro_price_add a {
+.pro_price_add a {
   color: #fff;
   display: inline-block;
   font-weight: bold;
@@ -12039,7 +12039,7 @@ p {
   width: 63%;
 }
 
-.prduct-grid .pro_img .pro_price_add a:focus {
+.pro_price_add a:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -12062,6 +12062,52 @@ p {
 
 .product-counter input#quantity:focus {
   padding: 0;
+}
+
+.prduct-grid .pro_img {
+  position: relative;
+  overflow: hidden;
+}
+
+.prduct-grid .discount {
+  left: 11%;
+  top: 4%;
+  position: absolute;
+}
+
+.prduct-grid .discount span {
+  padding: 2px 7px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.prduct-grid .discount span.out {
+  background: #0E0F2C;
+}
+
+.prduct-grid .discount span.offer {
+  background: green;
+}
+
+.prduct-grid .pro_img_2nd {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.prduct-grid:hover .pro_img_2nd {
+  opacity: 1;
+  -webkit-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  transform: scale(1.09);
 }
 
 .collection-02 {
