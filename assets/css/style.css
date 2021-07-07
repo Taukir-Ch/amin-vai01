@@ -11653,6 +11653,13 @@ template {
   margin: 0;
 }
 
+@media (max-width: 767px) {
+  .header-wrapper .header-top-offer p {
+    font-size: 13px;
+    font-weight: normal;
+  }
+}
+
 .header-wrapper .social-icon ul li {
   display: inline-block;
   border: 1px solid #fff;
@@ -11776,6 +11783,12 @@ template {
   width: 80px;
 }
 
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .header-middle-detalis {
+    margin: 10px 0;
+  }
+}
+
 .header-middle-detalis ul {
   display: inline-block;
 }
@@ -11806,6 +11819,12 @@ template {
   position: absolute;
   top: 13px;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .search-bar {
+    margin: 18px 0;
+  }
 }
 
 body {
@@ -12044,6 +12063,10 @@ p {
   box-shadow: none;
 }
 
+.pro_price_add a:hover {
+  color: #fff;
+}
+
 .product-counter {
   display: inline-block;
 }
@@ -12108,6 +12131,10 @@ p {
   -webkit-transform: scale(1.09);
   -ms-transform: scale(1.09);
   transform: scale(1.09);
+}
+
+.at_t:hover {
+  color: #fff;
 }
 
 .collection-02 {

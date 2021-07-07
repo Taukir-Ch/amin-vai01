@@ -8,6 +8,10 @@
             font-weight: 500;
             padding: 0;
             margin: 0;
+            @media #{$xs}{
+                font-size: 13px;
+                font-weight: normal;
+            }
         }
     }
     .social-icon{
@@ -110,6 +114,9 @@ color: #fff;}
  width: 80px;
 }
 .header-middle-detalis {
+    @media #{$sm}{
+        margin: 10px 0;
+    }
 ul{
     display: inline-block;
     li{
@@ -146,4 +153,13 @@ ul{
             }
         }
     }
+}
+
+
+
+
+@media #{$xs}{
+ .search-bar{
+     margin: 18px 0;
+ }
 }

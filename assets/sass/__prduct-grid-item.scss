@@ -31,6 +31,10 @@
                 &:focus{
                     box-shadow: none;
                 }
+                &:hover{
+                    color: #fff;
+                      
+                }
             }
         }
 
@@ -92,4 +96,7 @@
             opacity: 1;
             transform: scale(1.09);
         }
+}
+.at_t:hover{
+    color:#fff;
 }

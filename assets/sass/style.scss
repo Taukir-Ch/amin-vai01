@@ -14,9 +14,30 @@
     ********************/
 	@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,500;1,600&family=Roboto:wght@100;900&display=swap');
 	
+
+	$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
 @import '_bootstrap';
 @import '_normalize';
 @import '_heder';
+
+// Responsive Variables
+
+@media #{$laptop}{
+	
+}
+@media #{$lg}{
+	
+}
+@media #{$md}{
+	
+}
+@media #{$xs}{
+
+}
 
 body{
 	font-family: 'Raleway', sans-serif;
